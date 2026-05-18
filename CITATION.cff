@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this toolbox in scientific work, please cite both the software (this entry) and the ERA5-Land dataset (preferred-citation)."
+type: software
+title: "era5land-arcgis-tools"
+abstract: >-
+  ArcGIS Pro Python toolbox for processing ERA5-Land daily NetCDF
+  data into GIS-ready GeoTIFFs and derived climate indicators.
+  Four tools: NetCDF to GeoTIFF conversion (variable-agnostic),
+  NetCDF inspection (debug), climate indicator computation
+  (48 metrics across 6 categories including ETCCDI extremes,
+  Spinoni HDD/CDD, WMO normals, and G.POT-oriented heating /
+  cooling season lengths), and regional zonal time-series
+  extraction to long-format CSV. Companion downloader
+  (era5land-downloads) automates batch acquisition from the
+  DestinE Earth Data Hub Zarr store or the Copernicus CDS API.
+authors:
+  - family-names: "Goncalves"
+    given-names: "Pedro M. M."
+    affiliation: >-
+      LNEG (Laboratorio Nacional de Energia e Geologia, Portugal);
+      FCUP (Faculdade de Ciencias, Universidade do Porto);
+      41 Norte
+    orcid: "https://orcid.org/0000-0002-6556-6086"
+version: "1.0.0"
+date-released: "2026-05-18"
+license: "Apache-2.0"
+repository-code: "https://github.com/PedroMMGoncalves/era5land-arcgis-tools"
+keywords:
+  - "ERA5-Land"
+  - "climate indicators"
+  - "ArcGIS Pro"
+  - "Python toolbox"
+  - "Copernicus"
+  - "DestinE"
+  - "ETCCDI"
+  - "HDD"
+  - "CDD"
+  - "geothermal potential"
+  - "G.POT"
+preferred-citation:
+  type: article
+  title: "ERA5-Land: a state-of-the-art global reanalysis dataset for land applications"
+  authors:
+    - family-names: "Munoz-Sabater"
+      given-names: "Joaquin"
+  journal: "Earth System Science Data"
+  volume: 13
+  issue: 9
+  start: 4349
+  end: 4383
+  year: 2021
+  doi: "10.5194/essd-13-4349-2021"

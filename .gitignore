@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ArcGIS Pro
+*.pyt.bak
+.lock
+*.lock.rd
+.arcgislocks/
+.tmp/
+*.gdb.lock
+*.gdb.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Test outputs / large data
+test_output/
+sample_data/
+*.tif
+*.nc
+*.aux.xml
+*.tfw
+*.ovr
+*.rrd
+*.dbf.bak
+
+# Manifests from local tests
+manifest.csv
+
+# But keep examples
+!examples/sample_*.tif
+!examples/sample_*.nc
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# OS
+.directory
+.fseventsd
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+
+# Backup files
+*.bak
+*.tmp
+*~

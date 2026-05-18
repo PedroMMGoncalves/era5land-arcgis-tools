@@ -25,6 +25,10 @@ version: "1.0.0"
 date-released: "2026-05-18"
 license: "Apache-2.0"
 repository-code: "https://github.com/PedroMMGoncalves/era5land-arcgis-tools"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20275805"
+    description: "Zenodo archive of this software release"
 keywords:
   - "ERA5-Land"
   - "climate indicators"

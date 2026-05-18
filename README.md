@@ -88,7 +88,7 @@ Software:
 ```text
 Goncalves P (2026). era5land-arcgis-tools: ArcGIS Pro toolbox for
 processing ERA5-Land daily NetCDF data into climate indicators and
-regional time series. Version 1.0.0. Zenodo. DOI: <pending>
+regional time series. Version 1.0.0. Zenodo. DOI: 10.5281/zenodo.20275805
 ```
 
 ERA5-Land dataset:
